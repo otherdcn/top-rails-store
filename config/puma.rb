@@ -9,7 +9,7 @@
 # should only set this value when you want to run 2 or more workers. The
 # default is already 1. You can set it to `auto` to automatically start a worker
 # for each available processor.
-workers ENV.fetch("WEB_CONCURRENCY")
+workers ENV.fetch("WEB_CONCURRENCY") { 4 }
 
 # The ideal number of threads per worker depends both on how much time the
 # application spends waiting for IO operations and on how much you wish to
