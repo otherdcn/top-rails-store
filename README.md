@@ -1,4 +1,4 @@
-# Project: Command Line Chess Game
+# Project: TOP Rails Store
 Following the [TOP (The Odin Project)](https://www.theodinproject.com/lessons/ruby-on-rails-store-app) course and developing a rails web store following the [Rails Getting Started Guides](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-app).
 
 ## Requirements
